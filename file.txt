@@ -1,0 +1,9 @@
+<?php
+$database = mysqli_connect(hostname: 'localhost', username: 'me', password: 'Fola@1307', database: 'nigga');
+
+if ($database){
+  echo "Connection Succesful";
+}else{
+  echo "Connection failed";
+}
+mysqli_close(mysql: $database);  
